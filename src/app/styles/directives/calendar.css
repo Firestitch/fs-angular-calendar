@@ -1,0 +1,8 @@
+fs-calendar {
+	display: block;
+}
+
+fs-calendar .fs-calendar-header .prev,
+fs-calendar .fs-calendar-header .next {
+	min-width: 35px;
+}

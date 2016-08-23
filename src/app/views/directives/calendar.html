@@ -1,0 +1,15 @@
+<div class="fs-calendar-header" layout="row" layout-align="start center">
+	<div flex>
+		<md-button ng-click="calendar('today')" class="md-rasied today">Today</md-button>
+		<md-button ng-click="calendar('prev')" class="md-rasied prev"><md-icon>navigate_before</md-icon></md-button>
+		<md-button ng-click="calendar('next')" class="md-rasied next"><md-icon>navigate_next</md-icon></md-button>
+
+		<span class="date">{{view.title}}</span>
+	</div>
+
+	<div>
+		<md-button ng-click="calendar('changeView','month')" class="md-rasied month" ng-class="{ 'md-primary': view.type=='month' }">Month</md-button>
+		<md-button ng-click="calendar('changeView','agendaWeek')" class="md-rasied week" ng-class="{ 'md-primary': view.type=='agendaWeek' }">Week</md-button>
+	</div>
+</div>
+<div class="fs-calendar-calendar"></div>

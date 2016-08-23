@@ -1,0 +1,22 @@
+{
+  "name": "fs-angular-calendar",
+  "description": "",
+  "main": [
+    "dist/calendar.js",
+    "dist/calendar.css"
+  ],
+  "authors": [
+    "Firestitch Inc."
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "fullcalendar": "~2.7.1",
+    "moment": ">=2.5.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "src",
+    ".gitignore"
+  ],
+  "private": false
+}
